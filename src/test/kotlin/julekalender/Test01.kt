@@ -8,7 +8,7 @@ import org.junit.Assert.assertThat
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 
-class Test1 {
+class Test01 {
 
     @Test
     @DisplayName("Frequency should be correctly calculated with the dummy data")

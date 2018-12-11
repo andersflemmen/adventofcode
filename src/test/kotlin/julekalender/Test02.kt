@@ -8,7 +8,7 @@ import org.junit.Assert.assertThat
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 
-class Test2 {
+class Test02 {
 
     @Test
     @DisplayName("Checksum should be correctly calculated with the dummy data")

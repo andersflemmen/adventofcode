@@ -1,17 +1,15 @@
 package main.julekalender
 
-import main.julekalender.Task2.Companion.calculateChecksum
-import main.julekalender.Task2.Companion.findCommonLettersForPrototypeBoxes
 import java.lang.RuntimeException
 
 fun main(args: Array<String>) {
     val input = getInput(2).readLines()
 
-    println("Checksum: ${calculateChecksum(input)}")
-    println("Common letters for prototype boxes: ${findCommonLettersForPrototypeBoxes(input)}")
+    println("Checksum: ${Task02.calculateChecksum(input)}")
+    println("Common letters for prototype boxes: ${Task02.findCommonLettersForPrototypeBoxes(input)}")
 }
 
-class Task2 {
+class Task02 {
     companion object {
         fun calculateChecksum(input: List<String>): Int {
             var twos = 0

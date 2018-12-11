@@ -1,7 +1,7 @@
 package julekalender
 
-import julekalender.Task1.Companion.calculateFrequency
-import julekalender.Task1.Companion.findRepeatedFrequency
+import julekalender.Task01.Companion.calculateFrequency
+import julekalender.Task01.Companion.findRepeatedFrequency
 import main.julekalender.getInput
 import org.hamcrest.CoreMatchers.`is`
 import org.junit.Assert.assertThat

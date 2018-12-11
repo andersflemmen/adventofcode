@@ -1,7 +1,7 @@
 package julekalender
 
-import main.julekalender.Task2.Companion.calculateChecksum
-import main.julekalender.Task2.Companion.findCommonLettersForPrototypeBoxes
+import main.julekalender.Task02.Companion.calculateChecksum
+import main.julekalender.Task02.Companion.findCommonLettersForPrototypeBoxes
 import main.julekalender.getInput
 import org.hamcrest.CoreMatchers.`is`
 import org.junit.Assert.assertThat

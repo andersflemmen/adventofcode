@@ -5,11 +5,11 @@ import main.julekalender.getInput
 fun main(args: Array<String>) {
     val input = getInput(1).readLines()
 
-    println("Frequency: ${Task1.calculateFrequency(input)}")
-    println("First duplicate frequency: ${Task1.findRepeatedFrequency(input)}")
+    println("Frequency: ${Task01.calculateFrequency(input)}")
+    println("First duplicate frequency: ${Task01.findRepeatedFrequency(input)}")
 }
 
-class Task1 {
+class Task01 {
     companion object {
         fun calculateFrequency(input: List<String>): Int {
             return input.map { s -> s.toInt() }.sum()

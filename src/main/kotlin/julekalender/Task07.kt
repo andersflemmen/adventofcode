@@ -81,7 +81,7 @@ class Task07 {
                     }
         }
 
-        data class Edge(val from: Char, val to: Char)
-        data class Job(val name: Char, val completionTime: Int)
+        private data class Edge(val from: Char, val to: Char)
+        private data class Job(val name: Char, val completionTime: Int)
     }
 }

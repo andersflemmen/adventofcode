@@ -71,7 +71,7 @@ class Task04 {
             return map
         }
 
-        data class LogEntry(val time: LocalDateTime, val event: String)
+        private data class LogEntry(val time: LocalDateTime, val event: String)
     }
 }
 

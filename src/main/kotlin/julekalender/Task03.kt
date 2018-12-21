@@ -69,6 +69,6 @@ class Task03 {
             )
         }
 
-        data class Cut(val id: Int, val x: Int, val y: Int, val width: Int, val height: Int)
+        private data class Cut(val id: Int, val x: Int, val y: Int, val width: Int, val height: Int)
     }
 }

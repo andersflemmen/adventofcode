@@ -88,5 +88,5 @@ class Task06 {
         }
     }
 
-    data class Point(val x: Int, val y: Int, val id: Char = '.')
+    private data class Point(val x: Int, val y: Int, val id: Char = '.')
 }
